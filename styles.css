@@ -1,0 +1,121 @@
+/*GENERALES*/
+:root{
+    --global-font-size:16px;
+    --medium-font-size:23px;
+    --red-color:#e50914;
+    --white-color:#fff;
+    --grey-color:#8c8c8c;
+    --black-color:#000;
+    --dark-grey-color:#303030;
+    --margin-center: 0 auto;
+}
+
+body{
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: var(--global-font-size);
+    background-color: var(--black-color);
+    margin: 0;
+    color: var(--white-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+}
+
+header{
+    position: relative;
+    z-index: 1;
+}
+
+/*HEADER*/
+
+.header__logo{
+    width: 133px;
+    height: 36px;
+    padding: 28px 55px;
+}
+
+.boton{
+border-radius: 3px;
+color:var(--white-color);
+background-color: var(--red-color);
+padding: 7px 17px;
+}
+
+.boton__login{
+    margin: 28px 55px;
+    display: inline-block;
+}
+
+.titulo{
+    font-size: 50px;
+    margin: var(--margin-center);
+}
+
+.subtitulo{
+    font-size: var(--medium-font-size);
+    font-weight: normal;
+    margin: 16px auto;
+}
+
+.header__form{
+    text-align: center;
+}
+
+.header__contenido{
+    max-width: 640px;
+    margin:85px auto;
+    margin-bottom: 0;
+}
+
+.formulario__email{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px var(--grey-color);
+    border-radius: 2px;
+}
+
+.boton--grande{
+    padding: 12px 35px;
+    font-size: var(--medium-font-size);
+    position: relative;
+    top: 3px;
+    left:-5px;
+}
+
+.titulo--sm{
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.fondo{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 700px;
+}
+
+.fondo__imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fondo--degradado{
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+    rgba(0,0,0,0.8)0%
+    rgba(0,0,0,0)60%
+    rgba(0,0,0,0.8)100%);
+
+}
+
